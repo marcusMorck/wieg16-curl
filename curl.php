@@ -27,5 +27,11 @@ foreach ($words as $word => $amount) {
         if (strpos($item, $word) !== false) {
             $words[$word] = $words[$word] + 1;
         }
+
     }
+
 }
+
+
+var_dump($words);
+
